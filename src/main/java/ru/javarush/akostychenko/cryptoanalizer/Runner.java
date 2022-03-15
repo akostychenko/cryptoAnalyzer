@@ -1,4 +1,4 @@
-package ru.javarush.akostychenko.cryptoanalizer;
+package ru.javarush.akostychenko.cryptoanalyzer;
 
 public class Runner {
     public static void main(String[] args) {
