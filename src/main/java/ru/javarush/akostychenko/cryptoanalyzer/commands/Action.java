@@ -5,4 +5,5 @@ import ru.javarush.akostychenko.cryptoanalyzer.entity.Result;
 public interface Action {
 
     Result execute(String[] parameters);
+
 }

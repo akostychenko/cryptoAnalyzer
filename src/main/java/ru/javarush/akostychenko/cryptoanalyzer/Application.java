@@ -15,10 +15,10 @@ public class Application {
     }
 
     public Result run(String[] args) {
-        //encode text.txt encode.txt 12
+        //encode text.txt encode.txt keyvalue
         if (args.length > 0) {
             String action = args[0]; //encode
-            //parameters - text.txt encode.txt 12
+            //parameters - text.txt encode.txt keyvalue
             String[] parameters = Arrays.copyOfRange(args, 1, args.length);
             return mainController.doAction(action, parameters);
         } else {

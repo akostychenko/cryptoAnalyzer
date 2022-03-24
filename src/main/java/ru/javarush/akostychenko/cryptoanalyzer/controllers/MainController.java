@@ -7,7 +7,7 @@ public class MainController {
     public Result doAction(String actionName, String[] parameters){
         //action == encode
         //parameters = [text.txt,encode.txt,keyValue]
-        Action action = Actions.find(actionName);
+        Action action = ActionFactory.get(actionName);
         return action.execute(parameters);
     }
 
